@@ -1,0 +1,110 @@
+/* --- STYLES FOR ALL PAGES --- */
+
+body {
+    /* Typography */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    /* Visual */
+    background-color: black;
+}
+
+html {
+    /* Positioning */
+    position: relative;
+
+    /* Box-model */
+    min-height: 100%;
+}
+
+/* NAV START */
+
+#logo img{
+    width: 95px;
+    height: 60px;
+}
+.navbar-brand{
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(190, 29, 29);
+    font-family: 'Nunito', sans-serif;
+    font-size: 19px;
+}
+.navbar-light:hover {
+    color: white !important;
+}
+.navbar-nav:hover{
+    color:white !important;
+}
+.nav-link:hover{
+    color:white !important;
+}
+
+/* override bootstrap hover color and border */
+/* .navbar-default .collapse>li>a:hover {
+    color: #eb6ceb !important;
+} */
+
+.navbar {
+    background-color: #353a40;
+    border: none;
+    opacity: .8;
+    padding: 2;
+}
+.floatLeft{
+    float:left;
+}
+.floatRight{
+    float:right;
+}
+.social-link{
+    font-size:20px;
+    text-decoration: none;
+    color: rgb(190, 29, 29);
+}
+.social-link:hover{
+    color:white;
+}
+
+/* END NAV */
+
+/* BEGIN FOOTER */
+
+.footer {
+    /* Positioning */
+    position: absolute;
+    bottom: 0;
+
+    /* Box-model */
+    width: 100%;
+    height: 40px;
+
+    /* Visual */
+    background: #353a40;
+}
+
+/* END FOOTER */
+/* --- END STYLES FOR ALL PAGES --- */
+
+/* --- PAGE-SPECIFIC STYLES --- */
+
+/*LANDING PAGE - HOME*/
+
+.forCenter{
+    text-align: center;
+    height: 90vh;
+    margin-top: 20px;
+}
+.forSpacing{
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.carousel-item{
+    height: 600px;
+}
+.fixPadding{
+    padding:0;
+}
+
+/* END LANDING PAGE - HOME */
